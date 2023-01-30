@@ -1,0 +1,35 @@
+footer{
+
+   padding: 0;
+   .footer1{
+         border-top:5px white solid;
+         display: flex;
+         bottom: 0;
+         position:absolute;
+         width: 100%;
+         p{
+            color:whitesmoke;
+            padding-left: 20px;
+         }
+         .redes1{
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+         }
+      }
+   
+   .footer2{
+      border-top:5px white solid;
+      display: flex;
+      
+      p{
+         color:whitesmoke;
+         padding-left: 20px;
+      }
+      .redes1{
+         width: 24px;
+         height: 24px;
+         border-radius: 100%;
+      }
+    }
+   }

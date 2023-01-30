@@ -1,0 +1,316 @@
+footer {
+  padding: 0;
+}
+footer .footer1 {
+  border-top: 5px white solid;
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+footer .footer1 p {
+  color: whitesmoke;
+  padding-left: 20px;
+}
+footer .footer1 .redes1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+footer .footer2 {
+  border-top: 5px white solid;
+  display: flex;
+}
+footer .footer2 p {
+  color: whitesmoke;
+  padding-left: 20px;
+}
+footer .footer2 .redes1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+@font-face {
+  font-family: Graffiti Regular;
+  src: url(assets/fuentes/Graffiti.ttf) format(".tff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.house {
+  background-color: rgba(0, 0, 0, 0.76);
+  font-family: Graffiti Regular;
+}
+.house header {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "gato-logo";
+  margin-top: 10%;
+}
+.house header .logo {
+  grid-area: gato-logo;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.house header .logo .gato-logo1 {
+  width: 150px;
+  height: 150px;
+}
+.house header .logo .gato-logo2 {
+  width: 150px;
+  height: 150px;
+}
+.house header .logo .gato-logo3 {
+  width: 150px;
+  height: 150px;
+}
+.house h2 {
+  font-family: Graffiti Regular;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+.house .artist {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  font-family: Graffiti Regular;
+  margin-top: 3%;
+}
+.house .artist .artist1 {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+}
+.house .artist .artist1 .icono1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.house .artist .artist2 {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+}
+.house .artist .artist2 .icono2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.gatologo {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 100%;
+}
+
+.body-pibe {
+  background-color: rgba(0, 0, 0, 0.76);
+  font-family: Graffiti Regular;
+}
+.body-pibe .pibe-general {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.body-pibe .pibe-general .descripcion .pibe1 {
+  flex: 50%;
+  height: 600px;
+  width: auto;
+}
+.body-pibe .pibe-general .descripcion .pibe2 {
+  flex: 50%;
+  align-content: center;
+  background-image: url(https://i.pinimg.com/736x/11/7b/d0/117bd0f284fb3efcc3a4b3754aaa0121.jpg);
+  font-size: 15px;
+  width: 330px;
+  height: 200px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.body-comic {
+  background-color: rgba(0, 0, 0, 0.76);
+  font-family: Graffiti Regular;
+}
+.body-comic .carrusel .conte-carrusel {
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+.body-comic .carrusel .conte-carrusel .item-carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.body-comic .carrusel .conte-carrusel .item-carrusel .pag-comic {
+  max-width: 600px;
+  height: 900px;
+}
+.body-comic .carrusel .conte-carrusel .item-carrusel .flechas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20%;
+}
+.body-comic .carrusel .conte-carrusel .item-carrusel .flechas .manos {
+  width: 100px;
+  height: 75px;
+}
+
+.body-tattoos {
+  background-color: rgba(0, 0, 0, 0.76);
+  font-family: Graffiti Regular;
+}
+.body-tattoos .row {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.body-tattoos .row .column {
+  flex: 25%;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.body-tattoos .row .tattoo-works {
+  margin-top: 15px;
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .house h2 {
+    font-size: 12px;
+  }
+  .house header .logo .gato-logo1 {
+    width: 75px;
+    height: 75px;
+  }
+  .house header .logo .gato-logo2 {
+    width: 75px;
+    height: 75px;
+  }
+  .house header .logo .gato-logo3 {
+    width: 75px;
+    height: 75px;
+  }
+  .house .artist .artist1 {
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+  }
+  .house .artist .artist1 .icono1 {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+  }
+  .house .artist .artist2 {
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+  }
+  .house .artist .artist2 .icono2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+  }
+  .body-pibe .pibe-general .descripcion .pibe1 {
+    height: 225px;
+    width: auto;
+    padding-right: 5px;
+  }
+  .body-pibe .pibe-general .descripcion .pibe2 {
+    width: auto;
+    height: 225px;
+  }
+  .body-comic .carrusel .conte-carrusel {
+    height: 100%;
+    overflow: hidden;
+  }
+  .body-comic .carrusel .conte-carrusel .item-carrusel {
+    justify-content: center;
+    align-items: center;
+  }
+  .body-comic .carrusel .conte-carrusel .item-carrusel .pag-comic {
+    width: 100%;
+  }
+  .body-comic .carrusel .conte-carrusel .item-carrusel .flechas .manos {
+    width: 75px;
+    height: 50px;
+  }
+  .body-tattoos {
+    margin: 0;
+    padding: 0;
+  }
+  .body-tattoos .row {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .body-tattoos .row .column {
+    flex: 100%;
+    padding: 5px;
+  }
+  .body-tattoos .row .tattoo-works {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+@media (max-width: 820px) {
+  .body-tattoos {
+    margin: 0;
+    padding: 0;
+  }
+  .body-tattoos .row {
+    display: flex;
+    padding: 10px;
+  }
+  .body-tattoos .row .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  .body-tattoos .row .tattoo-works {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .body-comic .carrusel .conte-carrusel {
+    height: 1100px;
+  }
+  .body-comic .carrusel .conte-carrusel .item-carrusel .pag-comic {
+    max-width: 600px;
+    height: 900px;
+    padding-top: 10px;
+  }
+  .body-comic .carrusel .conte-carrusel .item-carrusel .flechas {
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+}/*# sourceMappingURL=main.css.map */
